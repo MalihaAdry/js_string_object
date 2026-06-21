@@ -4,6 +4,17 @@ Count how many times a string has the letter a */
 // const sentence = 'Havna nana banana'
 // const count = sentence.split('a').length-1;
 // console.log(count);
+//another way:
+// const sentence = 'Havna nana banana';
+// let count = 0;
+
+// for (const char of sentence) {
+//     if (char === 'a') {
+//         count++;
+//     }
+// }
+
+// console.log(count); 
 /* Count how many times a string has the letter a or A */
 // const sentence = 'Ajke Amra khelte jabo'
 // const count = sentence.toLowerCase().split('a').length-1;
